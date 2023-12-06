@@ -52,12 +52,12 @@
 <c:set var="keywordChk16" value="${ searchDto.addressKeyword16==null ? '':'&addressKeyword16=전남' }" />
 <c:set var="keywordChk17" value="${ searchDto.addressKeyword17==null ? '':'&addressKeyword17=제주' }" />
 
-<c:set var="keywordChk21" value="${ searchDto.addressKeyword21==null ? '':'&addressKeyword21=걸음마' }" />
-<c:set var="keywordChk22" value="${ searchDto.addressKeyword22==null ? '':'&addressKeyword22=손' }" />
-<c:set var="keywordChk23" value="${ searchDto.addressKeyword23==null ? '':'&addressKeyword23=앉아' }" />
-<c:set var="keywordChk24" value="${ searchDto.addressKeyword24==null ? '':'&addressKeyword24=죽은척' }" />
-<c:set var="keywordChk25" value="${ searchDto.addressKeyword25==null ? '':'&addressKeyword25=귀여운표정' }" />
-<c:set var="keywordChk26" value="${ searchDto.addressKeyword26==null ? '':'&addressKeyword26=보호자보호' }" />
+<c:set var="keywordChk21" value="${ searchDto.addressKeyword21==null ? '':'&addressKeyword21=기초훈련' }" />
+<c:set var="keywordChk22" value="${ searchDto.addressKeyword22==null ? '':'&addressKeyword22=가정견훈련' }" />
+<c:set var="keywordChk23" value="${ searchDto.addressKeyword23==null ? '':'&addressKeyword23=경비견훈련' }" />
+<c:set var="keywordChk24" value="${ searchDto.addressKeyword24==null ? '':'&addressKeyword24=수색훈련' }" />
+<c:set var="keywordChk25" value="${ searchDto.addressKeyword25==null ? '':'&addressKeyword25=프리스비' }" />
+<c:set var="keywordChk26" value="${ searchDto.addressKeyword26==null ? '':'&addressKeyword26=아질리티' }" />
 
 <c:set var="keywordChk31" value="${ searchDto.addressKeyword31==null ? '':'&addressKeyword31=대' }" />
 <c:set var="keywordChk32" value="${ searchDto.addressKeyword32==null ? '':'&addressKeyword32=중' }" />
@@ -121,18 +121,18 @@
                     <label class="info_chk" for="adkw17">제주</label>
 
                     <div class="con_search_title">훈련 과정</div>
-                    <input type="checkbox" class="adkw" id="adkw21" name="addressKeyword21" value="걸음마" ${addChk21} >
-                    <label class="info_chk" for="adkw21">걸음마</label>
-                    <input type="checkbox" class="adkw" id="adkw22" name="addressKeyword22" value="손" ${addChk22} >
-                    <label class="info_chk" for="adkw22">손</label>
-                    <input type="checkbox" class="adkw" id="adkw23" name="addressKeyword23" value="앉아" ${addChk23} >
-                    <label class="info_chk" for="adkw23">앉아</label>
-                    <input type="checkbox" class="adkw" id="adkw24" name="addressKeyword24" value="죽은척" ${addChk24} >
-                    <label class="info_chk" for="adkw24">죽은척</label>
-                    <input type="checkbox" class="adkw" id="adkw25" name="addressKeyword25" value="귀여운표정" ${addChk25} >
-                    <label class="info_chk" for="adkw25">귀여운 표정</label>
-                    <input type="checkbox" class="adkw" id="adkw26" name="addressKeyword26" value="보호자보호" ${addChk26} >
-                    <label class="info_chk" for="adkw26">보호자 보호</label>
+                    <input type="checkbox" class="adkw" id="adkw21" name="addressKeyword21" value="기초훈련" ${addChk21} >
+                    <label class="info_chk" for="adkw21">기초 훈련</label>
+                    <input type="checkbox" class="adkw" id="adkw22" name="addressKeyword22" value="가정견훈련" ${addChk22} >
+                    <label class="info_chk" for="adkw22">가정견 훈련</label>
+                    <input type="checkbox" class="adkw" id="adkw23" name="addressKeyword23" value="경비견훈련" ${addChk23} >
+                    <label class="info_chk" for="adkw23">경비견 훈련</label>
+                    <input type="checkbox" class="adkw" id="adkw24" name="addressKeyword24" value="수색훈련" ${addChk24} >
+                    <label class="info_chk" for="adkw24">수색 훈련</label>
+                    <input type="checkbox" class="adkw" id="adkw25" name="addressKeyword25" value="프리스비" ${addChk25} >
+                    <label class="info_chk" for="adkw25">프리스비</label>
+                    <input type="checkbox" class="adkw" id="adkw26" name="addressKeyword26" value="아질리티" ${addChk26} >
+                    <label class="info_chk" for="adkw26">아질리티</label>
 
                     <div class="con_search_title">애견 사이즈</div>
                     <input type="checkbox"  id="adkw31" class="adkw" name="addressKeyword31" value="대" ${addChk31} >

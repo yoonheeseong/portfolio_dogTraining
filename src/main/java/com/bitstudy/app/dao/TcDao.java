@@ -39,14 +39,6 @@ public class TcDao {
     public int selectTcListCount(SearchDto searchDto) {
         return session.selectOne(namespace+"selectTcListCount",searchDto);
     }
-
-    public List<TcDto> selectTcSearchPage(SearchDto searchDto) {
-        return session.selectList(namespace+"selectTcSearchPage",searchDto);
-    }
-
-    public int selectTcSearchPageCount(SearchDto searchDto) {
-        return session.selectOne(namespace+"selectTcSearchPageCount",searchDto);
-    }
     public TcDto tcSelect(Integer tc_no){
         return session.selectOne(namespace+"tcSelect", tc_no);
     }

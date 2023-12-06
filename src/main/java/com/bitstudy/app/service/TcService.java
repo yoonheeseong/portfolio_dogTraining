@@ -41,13 +41,6 @@ public class TcService {
     public int selectTcListCount(SearchDto searchDto) {
         return tcDao.selectTcListCount(searchDto);
     }
-    public List<TcDto> getSearchResultPage(SearchDto searchDto) {
-        return tcDao.selectTcSearchPage(searchDto);
-    }
-
-    public int getSearchResultCount(SearchDto searchDto) {
-        return tcDao.selectTcSearchPageCount(searchDto);
-    }
 
     public TcDto read(Integer tc_no){
         return tcDao.tcSelect(tc_no);

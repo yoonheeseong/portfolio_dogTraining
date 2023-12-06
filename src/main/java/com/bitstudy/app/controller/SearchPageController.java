@@ -114,9 +114,6 @@ public class SearchPageController {
     }
 
 
-
-
-    //
     @GetMapping("/rsvForm")
     public String rsvForm(Integer tc_no, Integer page, Integer pageSize, Model model, HttpSession session)  {
         try{
@@ -143,13 +140,13 @@ public class SearchPageController {
 
         try {
             /* 훈련소 찾기에 훈련리스트 불러오는 코드*/
-            int totalCount = tcService.getSearchResultCount(searchDto);
+            int totalCount = tcService.selectTcListCount(searchDto);
 
             PageHandler ph = new PageHandler(totalCount, searchDto.getPageSize(), searchDto.getPage());
 
             int offset = (searchDto.getPage()-1)*searchDto.getPageSize();
             searchDto.setOffset(offset);
-            List<TcDto> list = tcService.getSearchResultPage(searchDto);
+            List<TcDto> list = tcService.selectTcList(searchDto);
 
             model.addAttribute("ph", ph);
             model.addAttribute("list", list);
