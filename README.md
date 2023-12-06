@@ -6,11 +6,6 @@
 <br>
 <br>
 
-## 프로젝트 링크
-
-https://yoonheeseong.github.io/portfolio_dogTraining/
-<br>
-
 ## 프로젝트 목적
 <br>
 
