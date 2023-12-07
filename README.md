@@ -27,7 +27,7 @@
 ## 프로젝트 기간
 <br>
 
-- 2023-11-16 ~ 2023-11-29
+- 2023-11-15 ~ 2023-11-29
 
 ![image](https://github.com/yoonheeseong/portfolio_dogTraining/assets/146051681/01a4f741-7fbd-446f-863b-af1695c20fa0)
 
