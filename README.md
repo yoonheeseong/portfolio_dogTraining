@@ -42,8 +42,8 @@
 - 개발도구 : Visual Studio Code, Intellij
 - DB : Mysql
 - Server : Apache Tomcat 9.0.82
-- Language: HTML5, CSS3, JavaScript, JQuery, AJax, Java, Jstl, JSP
-- FrameWork: Spring, MyBatis
+- Language: HTML5, CSS3, JavaScript, AJax, Java, Jstl, JSP
+- FrameWork/Library: Spring, MyBatis, jQuery
 
 <br>
 
@@ -57,7 +57,7 @@
 - DB : Mysql
 - Server : Apache Tomcat 9.0.82
 - Language: HTML5, CSS3, Java, Jstl, JSP
-- FrameWork: Spring, MyBatis
+- FrameWork/Library: Spring, MyBatis
 
 <br>
 
